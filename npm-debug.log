@@ -1,0 +1,98 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\PROGRA~1\\nodejs\\node.exe',
+1 verbose cli   'c:\\PROGRA~1\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'anaconda' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of C:\Users\lance\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\lance\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'anaconda', null ]
+7 verbose cache add spec anaconda
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'anaconda',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'anaconda',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed anaconda@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for anaconda
+11 info addNameTag [ 'anaconda', 'latest' ]
+12 silly mapToRegistry name anaconda
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'anaconda',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'anaconda',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/anaconda
+17 verbose addNameTag registry:https://registry.npmjs.org/anaconda not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/anaconda
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 2:27:27 PM
+21 verbose request id 9303d6fcafeacecc
+22 http request GET https://registry.npmjs.org/anaconda
+23 http 404 https://registry.npmjs.org/anaconda
+24 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   etag: '"4M10Y6WH5OTPF5TRL4L1B7L02"',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'cache-control': 'max-age=0',
+24 verbose headers   'content-length': '406',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Fri, 14 Oct 2016 20:27:29 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-den6022-DEN',
+24 verbose headers   'x-cache': 'MISS',
+24 verbose headers   'x-cache-hits': '0',
+24 verbose headers   'x-timer': 'S1476476849.515521,VS0,VE74',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 404,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"4M10Y6WH5OTPF5TRL4L1B7L02"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'cache-control': 'max-age=0',
+25 silly get     'content-length': '406',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Fri, 14 Oct 2016 20:27:29 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-den6022-DEN',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1476476849.515521,VS0,VE74',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/anaconda
+26 verbose stack     at makeError (c:\PROGRA~1\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+26 verbose stack     at CachingRegistryClient.<anonymous> (c:\PROGRA~1\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+26 verbose stack     at Request._callback (c:\PROGRA~1\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+26 verbose stack     at Request.self.callback (c:\PROGRA~1\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+26 verbose stack     at emitTwo (events.js:87:13)
+26 verbose stack     at Request.emit (events.js:172:7)
+26 verbose stack     at Request.<anonymous> (c:\PROGRA~1\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+26 verbose stack     at emitOne (events.js:82:20)
+26 verbose stack     at Request.emit (events.js:169:7)
+26 verbose stack     at IncomingMessage.<anonymous> (c:\PROGRA~1\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+27 verbose statusCode 404
+28 verbose pkgid anaconda
+29 verbose cwd C:\Users\lance\code\lancebrown.tech\lancebrown.tech
+30 error Windows_NT 10.0.14393
+31 error argv "c:\\PROGRA~1\\nodejs\\node.exe" "c:\\PROGRA~1\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "anaconda"
+32 error node v4.4.5
+33 error npm  v2.15.5
+34 error code E404
+35 error 404 Registry returned 404 for GET on https://registry.npmjs.org/anaconda
+35 error 404
+35 error 404 'anaconda' is not in the npm registry.
+35 error 404 You should bug the author to publish it (or use the name yourself!)
+35 error 404
+35 error 404 Note that you can also install from a
+35 error 404 tarball, folder, http url, or git url.
+36 verbose exit [ 1, true ]
