@@ -15,8 +15,6 @@ main {
 .contact-icon{
   display: block;
   margin: auto;
-  transform: translateX(-50%);
-  /*margin-left: 20%;*/
   width: 65px;
   height: auto;
 }
@@ -27,4 +25,5 @@ main {
 }
 .contact-text{
   text-align: center;
+  font-size: 18px;
 }
