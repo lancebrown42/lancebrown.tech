@@ -17,8 +17,8 @@
     <script type="text/javascript" src="bower_components/Materialize/bin/materialize.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-        $('.modal-trigger').leanModal();
+
+        $('.modal-trigger')
     });
     </script>
     <script type="text/javascript">
@@ -71,6 +71,34 @@
     </nav>
 
     <ui-view></ui-view>
+    <footer class="page-footer deep-orange darken-2">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Like what you see?</h5>
+                <p class="grey-text text-lighten-4">I'm for hire. Take a look at my github. This site is always under construction, and I use it as a sandbox for new things as I learn them. If you find a problem or bug, or have a suggestion or criticism, please contact me and let me know. </p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Contact me</h5>
+                <ul class="valign-wrapper">
+
+                  <a href="mailto:lance.brown42@gmail.com?Subject=Hello%20from%20lancebrown.tech"><i class="valign medium material-icons white-text" >email</i></a>
+                  <a href="https://linkedin.com/in/lancebrown42" target = "_blank"><img class = "valign footer-contact-icon" src="../assets/linkedinwhite.png"></a>
+                  <a href="https://github.com/lancebrown42" target = "_blank"><img class = "valign footer-contact-icon" src="../assets/githubwhite.png"></a>
+
+                  <!-- <li><a class="grey-text text-lighten-3" href="https://linkedin.com/in/lancebrown42" target = "_blank">LinkedIn</a></li>
+                  <li><a class="grey-text text-lighten-3" href="mailto:lance.brown42@gmail.com?Subject=Hello%20from%20lancebrown.tech">Email</a></li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Lance Brown
+            <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+            </div>
+          </div>
+        </footer>
 
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="controllers/userController.js"></script>

@@ -1,4 +1,24 @@
 canvas {   display : block;   margin : auto;}
-body{
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+#home {
+  margin-top: 5px;
+}
+.contact-icon{
+  margin-right: 5px;
+  height: 65px;
+  width: 65px;
+}
+.footer-contact-icon{
+  margin-right: 5px;
+  height: 40px;
+  width: 40px;
 }
