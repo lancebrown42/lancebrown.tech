@@ -13,12 +13,18 @@ main {
   margin-top: 5px;
 }
 .contact-icon{
-  margin-right: 5px;
-  height: 65px;
+  display: block;
+  margin: auto;
+  transform: translateX(-50%);
+  /*margin-left: 20%;*/
   width: 65px;
+  height: auto;
 }
 .footer-contact-icon{
   margin-right: 5px;
   height: 40px;
   width: 40px;
+}
+.contact-text{
+  text-align: center;
 }
